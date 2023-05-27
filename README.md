@@ -1,3 +1,5 @@
+<meta name="referrer" content="never">		
+
 ## 静态网站源码
 
 > 映射` Gitee `仓库中所有`.md`文件,自动生成如下图所示效果
