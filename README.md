@@ -48,6 +48,8 @@
 
 > 将此仓库所有文件，放到GitHub仓库或者个人服务器 部署静态网站
 
-- 修改config.js映射自己的Gitee仓库即可！
+- 修改config.js映射自己的Gitee仓库 改成自己的仓库名称
 - - Gitee仓库必须开源，才可以映射
+
+或者直接Fork[ASLant (gitee.com)](https://gitee.com/aslant/ASlant)此仓库
 
