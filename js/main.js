@@ -5,27 +5,13 @@ const { createApp, reactive, toRefs, ref } = Vue;
 import config from "./config.js";
 import api from "./api.js";
 
-//防盗
-$(document).ready(function() {
-        
-    // 禁止右键
-    $(document).bind("contextmenu", function(){return  false;});
-    // 禁止选择
-    $(document).bind("selectstart", function(){return  false;});
-    // 禁止Ctrl+C 和Ctrl+A
-    $(document).keydown(function(event) {
-                    
-        if ((event.ctrlKey&&event.which==67) || (event.ctrlKey&&event.which==86))
-        {
-        //alert("Sorry,版权所有,禁止复制");
-            return false;
-        }
-            
-    });
-});
-
 // 主题获取
 var localThemeSave = window.localStorage.getItem("theme");
+
+//禁止鼠标右键
+document.oncontextmenu = function () {
+    event.returnValue = false;
+};
 
 // 数据
 const data = reactive({
@@ -249,7 +235,7 @@ const App = createApp({
          */
         getContentMenu() {
             this.menuData = null;
-            let dom = this.contentDom.querySelectorAll("h1, h2, h3, h4");
+            let dom = this.contentDom.querySelectorAll("h1, h2, h3, h4, h5, h6");
             this.menuData = [...dom].map((item) => {
                 // 获取标签名，内容，距离顶边高度
                 let { tagName, textContent, offsetTop } = item;
@@ -294,7 +280,7 @@ const App = createApp({
             this.menuSelectIndex = i;
 
             // 获取滚动高度
-            let top = this.contentDom.querySelectorAll("h1, h2, h3, h4")[i].offsetTop;
+            let top = this.contentDom.querySelectorAll("h1, h2, h3, h4, h5, h6")[i].offsetTop;
 
             this.contentDom.scrollTo({
                 top,
@@ -376,7 +362,7 @@ const App = createApp({
                     let top = e.target.scrollTop + 30;
 
                     // 实时获取标题元素
-                    let dom = this.contentDom.querySelectorAll("h1, h2, h3, h4");
+                    let dom = this.contentDom.querySelectorAll("h1, h2, h3, h4, h5, h6");
                     let trees = [...dom].map((item) => {
                         return item.offsetTop;
                     });
