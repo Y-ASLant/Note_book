@@ -104,7 +104,7 @@ img {
 .el-tabs,
 .el-tabs__content,
 .el-tab-pane {
-    height: calc(100% - 20px);
+    height: calc(100% - 0.85rem);
 }
 
 /* 菜单 */
