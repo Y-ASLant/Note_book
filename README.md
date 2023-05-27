@@ -47,7 +47,7 @@
 
 #### 夜间模式
 
-![image.png](https://image.baidu.com/search/down?url=https://tvax4.sinaimg.cn/large/006TZ18hly1hectkveqilj31hc0sw1ao.jpg)
+<img src="https://image.baidu.com/search/down?url=https://tvax3.sinaimg.cn/large/006TZ18hly1hedewsf5ocj31hc0swnaz.jpg" alt="QQ截图20230528003428.png" title="QQ截图20230528003428.png" />
 
 ## 使用方法
 
