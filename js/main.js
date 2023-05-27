@@ -5,6 +5,25 @@ const { createApp, reactive, toRefs, ref } = Vue;
 import config from "./config.js";
 import api from "./api.js";
 
+//防盗
+$(document).ready(function() {
+        
+    // 禁止右键
+    $(document).bind("contextmenu", function(){return  false;});
+    // 禁止选择
+    $(document).bind("selectstart", function(){return  false;});
+    // 禁止Ctrl+C 和Ctrl+A
+    $(document).keydown(function(event) {
+                    
+        if ((event.ctrlKey&&event.which==67) || (event.ctrlKey&&event.which==86))
+        {
+        //alert("Sorry,版权所有,禁止复制");
+            return false;
+        }
+            
+    });
+});
+
 // 主题获取
 var localThemeSave = window.localStorage.getItem("theme");
 

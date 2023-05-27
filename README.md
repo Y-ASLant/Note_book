@@ -14,6 +14,7 @@
 
 - 修改全局圆角效果，更加统一
 - 增加雪花效果（可手动关闭）
+- 增加JQuery代码，防复制防盗
 - 修改默认字体样式为 [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 个人手动精简版，加载速度更快，默认代码字体为[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)，修改默认字体大小更加合理
 
 ![image.png](https://image.baidu.com/search/down?url=https://tvax4.sinaimg.cn/large/006TZ18hly1hectd1rz75j31hc0swh33.jpg)
