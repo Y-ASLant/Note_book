@@ -1,3 +1,5 @@
+<meta name="referrer" content="never">		
+
 ## 静态网站源码
 
 > 映射` Gitee `仓库中所有`.md`文件,自动生成如下图所示效果
@@ -10,14 +12,16 @@
 
 > [EazyGiteeNote: 做一个简约实用，基于Gitee的学习笔记吧！](https://gitee.com/n0ts/eazy-gitee-note) 
 
-## 修改的内容
+## 修改优化的内容
 
 - 修改全局圆角效果，更加统一
-- 增加雪花效果（可手动关闭）
-- 增加JQuery代码，防复制防盗
+- 增加雪花效果（可手动关闭），增加鼠标点击效果
+![GIF 2023-5-28 0-32-34.gif](https://image.baidu.com/search/down?url=https://tvax2.sinaimg.cn/large/006TZ18hly1hedes2zgshg309d08ewic.jpg)
+- 禁止鼠标右击菜单（默认开启）
+- 增加JQuery代码，防复制防盗（默认关闭）
 - 修改默认字体样式为 [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 个人手动精简版，加载速度更快，默认代码字体为[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)，修改默认字体大小更加合理
 
-![image.png](https://image.baidu.com/search/down?url=https://tvax4.sinaimg.cn/large/006TZ18hly1hectd1rz75j31hc0swh33.jpg)
+![3e6ac377d945b07e4655bc5da0fb27c.png](https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/006TZ18hly1hedeq23usmj31hc0swqe7.jpg)
 
 - 删除冗余代码，和不完美的功能
 - 修改部分Markdown实现效果样式
@@ -35,7 +39,7 @@
 
 #### 首页展示（README.md）
 
-![image.png](https://image.baidu.com/search/down?url=https://tvax4.sinaimg.cn/large/006TZ18hly1hectm44gosj31hc0swgyo.jpg)
+![3e6ac377d945b07e4655bc5da0fb27c.png](https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/006TZ18hly1hedeq23usmj31hc0swqe7.jpg)
 
 #### 明亮模式（默认）
 
@@ -43,7 +47,7 @@
 
 #### 夜间模式
 
-![image.png](https://image.baidu.com/search/down?url=https://tvax4.sinaimg.cn/large/006TZ18hly1hectkveqilj31hc0sw1ao.jpg)
+<img src="https://image.baidu.com/search/down?url=https://tvax3.sinaimg.cn/large/006TZ18hly1hedewsf5ocj31hc0swnaz.jpg" alt="QQ截图20230528003428.png" title="QQ截图20230528003428.png" />
 
 ## 使用方法
 
