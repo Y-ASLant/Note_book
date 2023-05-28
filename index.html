@@ -12,7 +12,8 @@
         rel="stylesheet" />
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://cdn.bootcdn.net/ajax/libs/viewerjs/1.10.1/viewer.min.css" rel="stylesheet" />
-    <!--<link href="https://cdn.bootcdn.net/ajax/libs/firacode/5.2.0/fira_code.min.css" rel="stylesheet" />-->
+    <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
+    <script type="text/javascript" src="./js/djtx.js"></script>
     <link rel="stylesheet" href="./css/main.css" />
     <link id="stylesheet" rel="stylesheet" href="./css/default-light.css" />
     <style>
@@ -30,7 +31,7 @@
 
         * {
             font-family: 'LXGW';
-            font-size: 18px;
+            font-size: 17px;
         }
 
         span,
@@ -43,17 +44,17 @@
         details>summary {
             border-radius: 5px;
             padding: 5px;
-            width: 97%;
-            background-color: #39ac73;
+            width: 100%;
+            background-color: #4bb69e;
             border: none;
             box-shadow: 1px 1px 2px #353535;
             cursor: pointer;
         }
 
         details>p {
-            width: 97%;
+            width: 100%;
             border-radius: 5px;
-            background-color: #40bf80;
+            background-color: #3e9b84;
             padding: 5px;
             margin: 0;
             box-shadow: 1px 1px 2px #353535;
@@ -62,6 +63,7 @@
 </head>
 
 <body>
+
     <div id="app">
         <!-- 加载 -->
         <div class="loading" v-if="!Trees">
