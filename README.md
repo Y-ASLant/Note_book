@@ -16,9 +16,14 @@
 
 - 修改全局圆角效果，更加统一
 - 增加雪花效果（可手动关闭），增加鼠标点击效果
-![GIF 2023-5-28 0-32-34.gif](https://image.baidu.com/search/down?url=https://tvax2.sinaimg.cn/large/006TZ18hly1hedes2zgshg309d08ewic.jpg)
-- 禁止鼠标右击菜单（默认开启）
+![GIF 2023-5-28 0-32-34.gif](https://image.baidu.com/search/down?url=https://tvax2.sinaimg.cn/large/006TZ18hly1hedes2zgshg309d08ewic.jpg)   
+
+- 禁止鼠标右击菜单（默认开启）  
+
+
 - 增加JQuery代码，防复制防盗（默认关闭）
+- 修改\<details>\<summary>样式，兼容夜间模式  
+
 - 修改默认字体样式为 [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 个人手动精简版，加载速度更快，默认代码字体为[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)，修改默认字体大小更加合理
 
 ![3e6ac377d945b07e4655bc5da0fb27c.png](https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/006TZ18hly1hedeq23usmj31hc0swqe7.jpg)
@@ -36,7 +41,9 @@
 ## 效果图
 
 ---
+#### <details><summary>样式更改 
 
+![ima](https://image.baidu.com/search/down?url=https://tvax4.sinaimg.cn/large/006TZ18hly1heg8wpfrx2j31ip0ylkjl.jpg)
 #### 首页展示（README.md）
 
 ![3e6ac377d945b07e4655bc5da0fb27c.png](https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/006TZ18hly1hedeq23usmj31hc0swqe7.jpg)
