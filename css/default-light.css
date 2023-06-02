@@ -272,7 +272,7 @@ video {
 .content ol,
 .content dl,
 .content table {
-    margin: 0.5em 0;
+    margin: 0.3rem 0;
 }
 
 .content li>ol,
